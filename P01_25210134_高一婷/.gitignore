@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# 原始数据（体积较大，不提交）
+data/raw/stocks/*.csv
+data/raw/index/*.csv
+data/raw/macro/*.csv
+data/raw/financial/*.csv
+
+# SQLite数据库（可由代码重新生成）
+data/processed/*.db
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 报告输出（可选，若体积大可忽略）
+# reports/P02a_report.html
